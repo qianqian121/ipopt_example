@@ -1,5 +1,6 @@
 #include <cppad/ipopt/solve.hpp>
 #include <iostream>
+//#include <mpi.h>
 
 namespace {
     using CppAD::AD;
@@ -108,6 +109,7 @@ bool get_started(void)
 }
 
 int main(int argc, const char** argv) {
+    //MPI_Init();
     get_started();
     return 0;
 }
