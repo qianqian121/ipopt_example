@@ -8,3 +8,6 @@ https://bugs.launchpad.net/ubuntu/+source/coinor-ipopt/+bug/1167585
 https://list.coin-or.org/pipermail/ipopt/2013-April/003329.html
 https://github.com/casadi/casadi/issues/1010
 https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=592752
+
+modify Blas/config.guess search for arm* and copy paste with aar*
+sudo apt-get install gfortran
